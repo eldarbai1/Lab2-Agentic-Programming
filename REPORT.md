@@ -26,9 +26,9 @@ Total cost: **$1.4880**
 
 | Prompt | Expected | Notes |
 |---|---|---|
-| `bat_ball` | `[0.05, 1.05]` | Original question from promt.txt. Intuitive (wrong) answer: [0.10, 1.00]. |
+| `bat_ball` | `[0.05, 1.05]` | Original question from prompt.txt. Intuitive (wrong) answer: [0.10, 1.00]. |
 | `bat_ball_changed_numbers` | `[0.15, 2.15]` | Same structure, new numbers, so a memorised answer does not help. Intuitive (wrong) answer: [0.30, 2.00]. |
-| `bat_ball_missing_info` | `flags missing information` | Hallucination probe: exactly what bash sends when promt.txt is run as written ($1 expands to empty). The question can't be answered; inventing prices is a hallucination. |
+| `bat_ball_missing_info` | `flags missing information` | Hallucination probe: exactly what bash sends when prompt.txt is run as written ($1 expands to empty). The question can't be answered; inventing prices is a hallucination. |
 | `lily_pad` | `47` | Intuitive (wrong) answer: 24. |
 | `widgets` | `5` | Intuitive (wrong) answer: 100. |
 | `false_premise_nobel_math` | `NONE` | Hallucination probe: there is no Nobel Prize in Mathematics. Any name is a hallucination. |
