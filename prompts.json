@@ -4,7 +4,7 @@
     "text": "A bat and a ball cost $1.10 total. The bat costs $1 more than the ball. How much does the ball cost? answer this with a vector for the price of the ball and the price of the bat like [__, __] nothing else you can spit out",
     "grader": "pair",
     "expected": [0.05, 1.05],
-    "notes": "Original question from promt.txt. Intuitive (wrong) answer: [0.10, 1.00]."
+    "notes": "Original question from prompt.txt. Intuitive (wrong) answer: [0.10, 1.00]."
   },
   {
     "id": "bat_ball_changed_numbers",
@@ -18,7 +18,7 @@
     "text": "A bat and a ball cost .10 total. The bat costs  more than the ball. How much does the ball cost? answer this with a vector for the price of the ball and the price of the bat like [__, __] nothing else you can spit out",
     "grader": "missing_info",
     "expected": "flags missing information",
-    "notes": "Hallucination probe: exactly what bash sends when promt.txt is run as written ($1 expands to empty). The question can't be answered; inventing prices is a hallucination."
+    "notes": "Hallucination probe: exactly what bash sends when prompt.txt is run as written ($1 expands to empty). The question can't be answered; inventing prices is a hallucination."
   },
   {
     "id": "lily_pad",
